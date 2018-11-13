@@ -11,4 +11,4 @@
 
 © Tigirlas Gabriel, londly web development
 
-Licensed under the [MIT License](LICENSE).
+Licensed under the [GNU GENERAL PUBLIC LICENSE](LICENSE).
