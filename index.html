@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ro" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>LOGO</title>
+	<meta name="description" content="" />
+	<meta name="keywords"  content="" />
+	<meta name="Resource-type" content="Document" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+	<script src="scrolloverflow.js"></script>
+	<script src="jquery.fullPage.js"></script>
+	<script>
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				anchors: ['home', 'about', 'products', 'contact', 'footer'],
+				sectionsColor: ['#fff', '#fff', '#fff', '#fff', '#fff'],
+				navigation: true,
+				slidesNavigation: true,
+				navigationPosition: 'right',
+				navigationTooltips: ['Home Page', 'About us', 'Products', 'Contact us', 'Footer']
+			});
+		});
+		$(document).ready(function(){
+		   $(".navbar-toggler").click(function () {
+		      $('.header').toggleClass("blue");
+		   });
+		});
+	</script>
+</head>
+<body>
+<header id="header" class="header">
+			<nav class="navbar navbar-expand-lg navbar-light padd-top25" id="nav">
+			  <a class="navbar-brand padd-l bold" href="#home">LOGO</a>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse" id="navbarNav">
+			    <ul class="navbar-nav padd-l50p padd-top15 bold">
+			      <li class="nav-item active">
+			        <a class="nav-link on" href="#home">HOME<span class="sr-only">(current)</span></a>
+			      </li>
+			      <li class="nav-item padd-l15">
+			        <a class="nav-link on-about" href="#about">ABOUT&nbsp;US</a>
+			      </li>
+			      <li class="nav-item padd-l15">
+			        <a class="nav-link on-products" href="#products">PRODUCTS</a>
+			      </li>
+			      <li class="nav-item padd-l15">
+			        <a class="nav-link on-contact" href="#contact">CONTACT&nbsp;US</a>
+			      </li>
+			    </ul>
+			  </div>
+			</nav>
+		</header>
+<div id="fullpage">
+	<div class="section active" id="section0">
+
+	<div class="bg">
+		<div class="container-fluid padd-l50 padd-r50">
+			<p class="bold padd-l100 padd-t150">WELCOME TO</p>
+			<h1>We create and suport products</h1>
+			<p class="padd-l100">Lorem Ipsum este pur şi simplu o machetă pentru text a industriei tipografice. Lorem Ipsum a fost macheta standard a industriei încă din secolul al XVI-lea.</p>
+			<input type="button" class="btn btn-info m-l100 bold" value="LEARN MORE">
+		</div>
+	</div>
+	
+	</div>
+	<div class="section" id="section1">
+	    <div class="container-fluid">
+	    	<h2>ABOUT US</h2>
+	    	<h3>Our Story</h3>
+	    </div>
+	    <div class="row">
+	    	<div class="col-md-6 padd-top100">
+				<p class="caption bold padd-l200">There are no secrets to success.<br />
+				It is result of preparation, hard work,<br />
+				and learning from failure.
+			    </p>
+			    <p class="text padd-l200">
+			    	În ciuda opiniei publice, Lorem Ipsum nu e un simplu text fără sens. El îşi are rădăcinile într-o bucată a literaturii clasice latine din anul 45 î.e.n., făcând-o să aibă mai bine de 2000 ani.
+			    </p>
+	    	</div>
+	    	<div class="col-md-6 padd-top50">
+				<img src="about.jpg" alt="">
+	    	</div>
+	    </div>
+	</div>
+	<div class="section" id="section2">
+		<div class="container-fluid padd-top100">
+			<h2>OUR PRODUTS</h2>
+			<h3>We build products</h3>
+		</div>
+		<div class="slide active" id="slide1" data-anchor="slide1">
+			    <div class="row">
+			    	<div class="col-md-6 padd-top100">
+						<p class="caption bold padd-l200">Secaura home security</p>
+					    <p class="text padd-l200">
+					    	În ciuda opiniei publice, Lorem Ipsum nu e un simplu text fără sens. El îşi are rădăcinile într-o bucată a literaturii clasice latine din anul 45 î.e.n., făcând-o să aibă mai bine de 2000 ani.
+					    </p>
+			    	</div>
+			    	<div class="col-md-6 padd-top50">
+						<img src="product1.png" alt="">
+			    	</div>
+			    </div>
+			    <div class="padd-top200"></div>
+		</div>
+	    <div class="slide" id="slide2" data-anchor="slide2">
+			    <div class="row">
+			    	<div class="col-md-6 padd-top100">
+						<p class="caption bold padd-l200">Firmware solution</p>
+					    <p class="text padd-l200">
+					    	În ciuda opiniei publice, Lorem Ipsum nu e un simplu text fără sens. El îşi are rădăcinile într-o bucată a literaturii clasice latine din anul 45 î.e.n., făcând-o să aibă mai bine de 2000 ani.
+					    </p>
+			    	</div>
+			    	<div class="col-md-6 padd-top50">
+						<img src="product2.png" alt="">
+			    	</div>
+			    </div>
+	    </div>
+	</div>
+	<div class="section" id="section3">
+		<div class="container-fluid">
+	    	<h2>Become a Partner</h2>
+	    	<h3 class="padd-b50">E un fapt bine stabilit că cititorul va fi sustras de conţinutul citibil<br /> al unei pagini atunci când se uită la aşezarea în pagină.</h3>
+	    	<button id="myBtn" class="btn btn-info btn-lg">Contact</button>
+
+	    </div>
+	</div>
+	<div class="section" id="section4">
+		<div class="jumbotron text-center text-white">
+			<h2>Get in Touch</h2>
+			<h3 class="padd-b50 font-weight-light">E un fapt bine stabilit că cititorul va fi sustras de conţinutul citibil<br /> al unei pagini atunci când se uită la aşezarea în pagină.</h3>
+			<button id="myBtn2" class="btn btn-info btn-lg bg-white text-primary">Contact</button>
+		</div>
+		<footer>
+			<div class="footer-copyright text-center py-3">&copy; 2018 Copyright:
+			    <a href="https://londly.ru/"> londly.ru</a>
+			  </div>
+		</footer>
+	</div>
+</div>
+</body>
+</html>
